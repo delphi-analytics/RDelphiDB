@@ -30,7 +30,7 @@ setMethod("show", "ClickHouseHTTPDriver", function(object){
 #'
 #' @export
 #'
-ClickHouseHTTP <- function(){
+DelphiDBHTTP <- function(){
    new("ClickHouseHTTPDriver")
 }
 
