@@ -1,4 +1,4 @@
-Package: ClickHouseHTTP
+Package: RDelphiDBHTTP
 Type: Package
 Title: A Simple HTTP Database Interface to 'ClickHouse'
 Version: 0.3.2
