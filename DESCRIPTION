@@ -1,26 +1,14 @@
 Package: RDelphiDB
 Type: Package
-Title: A Simple HTTP Database Interface to 'ClickHouse'
+Title: A Simple HTTP Database Interface to 'RDelphiDB'
 Version: 0.3.2
-Authors@R: c(
-    person(
-        "Patrice", "Godard",
-        role = c("aut", "cre","cph"),
-        email = "patrice.godard@gmail.com"
-    ),
-    person(
-        "Eusebiu", "Marcu",
-        role = "ctb",
-        email = "marcueusebiu@gmail.com"
-    )
-    )
-Description: 'ClickHouse' (<https://clickhouse.com/>)
+Description: 'RDelphiDB' (<https://delphianalytics.in>)
    is an open-source, high performance columnar
    OLAP (online analytical processing of queries) database management system
    for real-time analytics using SQL. This 'DBI' backend
-   relies on the 'ClickHouse' HTTP interface and support HTTPS protocol.
-URL: https://github.com/patzaw/ClickHouseHTTP
-BugReports: https://github.com/patzaw/ClickHouseHTTP/issues
+   relies on the 'DelphiDB' HTTP interface and support HTTPS protocol.
+URL: https://github.com/delphi-analytics/RDelphiDB
+BugReports: https://github.com/delphi-analytics/RDelphiDBissues
 Depends:
    R (>= 3.6)
 Imports:
